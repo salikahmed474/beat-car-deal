@@ -1,0 +1,109 @@
+html{font-family: sans-serif;}
+*{padding: 0px; margin: 0px;}
+#head{height: 80px;width: 100%;}
+#navfixed{
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	box-shadow: 0px 0px 10px black;
+}
+#maxcars{
+	height: 80px;
+	width: auto;
+	padding-left: 100px;
+	float: left;
+}
+ul{list-style-type: none;
+float: right;
+padding-right: 80px;}
+ul li{
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	width: 120px;
+	height: 50px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+
+}
+#maindisp{
+	width: 100%;
+	height: 800px;
+	text-align: center;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	z-index: -1;
+	display: flex;
+}
+#caption{
+text-align: center;
+
+z-index: 1;/*for getting caption on top*/
+}
+.videocontainer{position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+opacity: 20%;
+}
+#cars{ margin-top: 150px;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+#main_ad{
+	width: 100%;
+	margin-top: 100px;
+	
+	align-items: center;
+	justify-content: center;
+	margin-left: 150px;
+}
+#AD{
+	border-style: solid; border-width: thin;border-color: black;
+	box-shadow: 5px 5px 5px 5px grey;
+    width: 350px;
+    height: auto;
+    float: left;
+    margin: 30px;
+    padding: 10px;
+}
+#name{
+	padding: 15px;
+}
+#img{padding: 10px;}
+#detail{padding: 15px;
+font-size: 23px;
+text-decoration: bold;
+padding-top: 5px;}
+#read_about{
+	float: left;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-top: 100px ;
+	padding-top: 30px;
+	padding-right: 100px;
+	padding-left: 20px;
+	background-image: url("bg.jpg");
+	background-position: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+}
+#foot{
+	width: 100%;
+	background-color: navy;
+	height: 50px;
+}
+#contact{
+	margin-top: 150px;
+	text-align: center;
+}

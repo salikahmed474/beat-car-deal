@@ -1,0 +1,72 @@
+html{font-family: sans-serif;}
+*{padding: 0px; margin: 0px;}
+#head{height: 80px;width: 100%;}
+#navfixed{
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	box-shadow: 0px 0px 10px black;
+}
+#maxcars{
+	height: 80px;
+	width: auto;
+	padding-left: 100px;
+	float: left;
+}
+ul{list-style-type: none;
+float: right;
+padding-right: 80px;}
+ul li{
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	width: 120px;
+	height: 50px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;}
+#main-disp{text-align: center;
+	width: 100%;
+	height: auto;
+	background-image: url('pic6.jpg');
+	height: 500px;}
+#con_display{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-image: url('pic6.jpg');
+	height: 500px;}
+#contacts{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+}
+.info{
+	text-align: center;
+	padding: 50px;
+	float: left;
+}
+#carry{padding-left: 350px;
+padding-top: 40px;
+}
+#form{
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 60px;
+
+}
+#foot{
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+table{margin-left:450px ;}
